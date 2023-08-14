@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7- Sum numbers</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            font: normal 18pt arial;
+        }
+        input{
+            font: normal 18pt Arial;
+            width: 100pt
+        }
+        div#result {
+            margin-top: 20pt;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> Simple values sum</h1>
+    <input type="number" name="test1" id="test1">
+    <input type="number" name="test2" id="test2">
+    <input type="button" value="Sum" onclick="sum()">    
+    <div id="result">The result is...</div>
+
+<script>
+    function sum(){
+        var test1 = window.document.getElementById('test1')
+        var test2 = window.document.getElementById('test2')
+        var result = window.document.getElementById('result')
+        var n1 = Number(test1.value)
+        var n2 = Number(test2.value)
+        var s = n1 + n2
+        result.innerHTML = `The result:  ${n1} + ${n2} = ${s}.`
+
+}
+</script>
+   
+</body>
+</html>
