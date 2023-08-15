@@ -1,9 +1,11 @@
-var vel = 44 
-console.log (`Sua velocidade é ${vel} km/h`)
+var hora = 49
 
-if ( vel >= 50) //condição simples
+console.log (`Your velocity is ${hora} km/h`)
+
+if ( hora >= 50) //condição simples
 {
-    console.log('Velocidade execedida, MULTADO')
+    console.log('Hight Speed, TAXED by hurry')
 }
 
-console.log('Continue em velocidade segura, Boa Viagem')
+
+console.log('No hurry, continue in safe velocity, GOOD ROAD TRIP')
