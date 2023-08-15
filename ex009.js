@@ -1,4 +1,4 @@
-var stt = 'Brasil'
+var stt = 'Brasil' //Para executar --->>>>>>>> Fn+F8
 
 console.log(`Vivendo no ${stt}`)
 
