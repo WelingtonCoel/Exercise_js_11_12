@@ -1,13 +1,13 @@
 
 // Mensagem conforme velocidade
-var hora = 77
+var hora = 66
 
 console.log (`Your velocity is ${hora} km/h`)
 
 if ( hora >= 50 && hora <70) { //condição simples
 
-    console.log('Hight Speed, TAXED by hurry')
-    console.log('Now, no hurry, continue in safe velocity, GOOD ROAD TRIP')
+    console.log('Hight Speed, FINED UP!')
+    //console.log('Now, no hurry, continue in safe velocity, GOOD ROAD TRIP')
 
 } else if (hora >= 70) {
      console.log('Man, are you "driving under?" it is a crime!')

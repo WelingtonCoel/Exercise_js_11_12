@@ -5,16 +5,15 @@ var hora = hoje.getHours() //Use only the information Hours
 
 console.log (`Agora são ${hora} h!`)
 
-if ( hora < 12 ) { 
+if ( hora < 12 ) 
+{  console.log('Bom dia, hoje é') 
 
-    console.log('Bom dia, hoje é') 
+}  else if (hora <= 18 ) {
+   console.log('Boa tarde, hoje é')
 
-} else if (hora <= 18 ) {
-     console.log('Boa tarde, hoje é')
-
-    }    else {
+   }  else {
         console.log('Boa noite, hoje é')
-}
+       }
  
 //console.log(diaSem)  //Uncoment the last comand to output the number that represent the day
  // 0 = dom, 1 = seg, 2 = ter, 3 = qua, 4 = qui, 5 = sex, 6 = sab
